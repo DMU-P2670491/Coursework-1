@@ -1,0 +1,118 @@
+/*from here is styling for both the about and cast page*/
+body{
+  background-color: #FFFAF0
+}
+/*this changed the whole background colour of the page*/
+
+.title{
+  color: #FFFAF0;
+  background-color: #4682B4;
+  text-align: center;
+  padding: 40px;
+}
+
+
+li a {
+  display: block;
+  color:  #FFFAF0;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+/*this is how the menu bar was created*/
+
+li a:hover {
+  background-color: #B0E0E6;}
+  /*this changes the colour of the menu when you hover over each item*/
+/*this is where the styling ends for both the about and cast page*/
+
+
+/*from here is styling for the about page*/
+h2{
+  color: #FFFAF0;
+  background-color: #4682B4;
+  text-align: center;
+}
+
+.synopsis{
+  text-align: center;
+  font-size: 18px
+}
+/*this placed the synopisis in the centre, i did this as it is a heading*/
+
+.Staring{
+    color: #4682B4;
+    text-align: center;
+}
+
+.ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #4682B4
+}
+/*this is the styling for the menu bar*/
+
+.item1.1, .item1.2{
+  display: inline;
+  font-size: 20px
+}
+
+  video{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*this controls the size and positioning of the video on the page*/
+/*this is where styling for the about page ends*/
+
+/*from here is styling for the cast page*/
+  .zendaya{
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 150px;
+    height: 190px;
+    float: left;
+  }
+  /*this positioned the image correctly, to fit the page, and allowed the text to show up next to the image*/
+
+  .zenline1{
+    margin-top: 50px;
+  }
+  /*this created space between the menu bar and first cast memeber*/
+
+  .zac{
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 150px;
+    height: 190px;
+    float: left;
+  }
+/*this positioned the image correctly, to fit the page, and allowed the text to show up next to the image*/
+
+  .willsmith{
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 150px;
+    height: 190px;
+    float: left;
+  }
+/*this positioned the image correctly, to fit the page, and allowed the text to show up next to the image*/
+/*this is where styling for the cast page ends*/
+
+/*from here is styling for both the about and cast page*/
+  .footer1{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .footer2{
+    text-align: center;
+  }
+  /*there are two seperate footers as there was a 50px gap needed for between the main body and the first line of the footer but
+  there was no need for a 50px gap between the first and second line of the footer*/
+/*this is where the styling ends for both the about and cast page*/
