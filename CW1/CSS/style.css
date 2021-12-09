@@ -1,0 +1,94 @@
+/*from here is styling for both the about and cast page*/
+body{
+  background-color: #FFFAF0 /*this changed the whole background colour of the page*/
+}
+
+.title{
+  color: #FFFAF0; /*this sets the colour of the title*/
+  background-color: #4682B4; /*this sets the background colour of the title*/
+  text-align: center; /*this places the title text in the middle of the page*/
+  padding: 40px; /*this is how many pixles the title background (the blue section) will take up on the page*/
+}
+
+.ul1 {
+  list-style-type: none; /*this removed the bulletpoints for each section of the menu bar*/
+  margin: 0; /*this removes excess space between the background of the menu bar and the edge of the page*/
+  padding: 0; /*this removes excess space between the background of the menu bar and the edge of the page*/
+  background-color: #4682B4 /*this is the background colour for the menu bar*/
+}
+
+li a {
+  display: block; /*this allowed the two sections of the menu bar to be sperated*/
+  color:  #FFFAF0; /*this sets the colour of the name of the item i.e about or cast*/
+  text-align: center; /*this places the text in the middle of each bar*/
+  padding: 8px; /*this is how many pixles the menu bar is*/
+  text-decoration: none; /*this enabled me to remove the line under the words*/
+} /*this is how the menu bar was created*/
+
+li a:hover {
+  background-color: #B0E0E6;} /*this changes the colour of the menu when you hover over each item*/
+/*this is where the styling ends for both the about and cast page*/
+
+
+/*from here is styling for the about page*/
+h2{
+  color: #FFFAF0; /*this is the colour of text*/
+  background-color: #4682B4; /*this is the colour for the background of heading 2*/
+  text-align: center; /*this aligned the text in the centre*/
+  font-size: 25px; /*this controls the size of the text*/
+}
+
+.synopsis{
+  text-align: center; /*this places the text in the centre of the page*/
+  font-size: 18px /*this controls the size of the text*/
+}
+
+video{
+  width: 50%; /*this controls size of the video*/
+  display: block; /*this placed the video in the centre of the page*/
+  margin-left: auto; /*this creates space between the edge of the screen and the left side of the video*/
+  margin-right: auto; /*this creates space between the edge of the screen and the right side of the video*/
+  }
+/*this is where styling for the about page ends*/
+
+/*from here is styling for the cast page*/
+  .zendaya{
+    margin-right: 30px; /*this leaves 30px between the image and the text*/
+    width: 150px; /*this is how many pixles wide the picture is*/
+    height: 190px; /*this is how many pixles tall the images is*/
+    float: left; /*this allows the text to be placed next to the image*/
+  }
+
+  .zenline1{
+    margin-top: 50px; /*this created 50px of space between the menu bar and first cast memeber*/
+  }
+
+  .zac{
+    margin-right: 30px; /*this leaves 30px between the image and the text*/
+    width: 150px; /*this is how many pixles wide the picture is*/
+    height: 190px; /*this is how many pixles tall the images is*/
+    float: left; /*this allows the text to be placed next to the image*/
+  }
+
+  .willsmith{
+    margin-right: 30px; /*this leaves 30px between the image and the text*/
+    width: 150px; /*this is how many pixles wide the picture is*/
+    height: 190px; /*this is how many pixles tall the images is*/
+    float: left; /*this allows the text to be placed next to the image*/
+  }
+
+/*this is where styling for the cast page ends*/
+
+/*from here is styling for both the about and cast page*/
+  .footer1{
+    text-align: center; /*this places the text in the middle of the line*/
+    margin-top: 80px; /*this created the 80px of space between the main body of the page and the footer*/
+  }
+
+  .footer2{
+    text-align: center; /*this place the text in the middle of the line*/
+  }
+  /*there are two seperate footers as there was a 50px gap needed for between the main body and the first line of the footer but
+  there was no need for a 50px gap between the first and second line of the footer*/
+  
+/*this is where the styling ends for both the about and cast page*/
